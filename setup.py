@@ -13,4 +13,4 @@ setuptools.setup(
     license='MIT',
     python_requires='>=3.6',
     keywords=['tonic', 'deep learning', 'reinforcement learning'],
-    packages=['tonic'])
+    packages=setuptools.find_packages())
